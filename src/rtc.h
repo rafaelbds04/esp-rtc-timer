@@ -4,8 +4,8 @@
 #include <Arduino.h>
 #include "RTClib.h"
 
-static const int RTC_SDA_PIN = D2;
-static const int RTC_SCL_PIN = D3;
+static const int RTC_SDA_PIN = D1;
+static const int RTC_SCL_PIN = D2;
 
 //starts rtc
 void startRtc();

@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-static const int RELAY_PIN = D7;
+static const int RELAY_PIN = D3;
 
 void handleStartRelay();
 void handleRelaySchedule();
