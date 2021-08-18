@@ -370,7 +370,7 @@
             }
 
             //Fetch saved schedules
-            fetch("/schedules", {
+            fetch("http://192.168.1.7/schedules", {
                 "referrerPolicy": "strict-origin-when-cross-origin",
                 "body": null,
                 "method": "GET",
@@ -393,10 +393,7 @@
                             cell2.innerHTML = item.name;
                             cell3.innerHTML = item.timeStart;
                             cell4.innerHTML = item.timeEnd;
-                            cell5.innerHTML = item.days.reduce((prev, current, index, array) => {
-                                return prev + weekDays[current] + ((index + 1) !== array.length ? ', ' : '')
-                            }, '');
-
+                            cell5.innerHTML = item.days.reduce((prev, current) => ([...prev, weekDays[current]]), []).join(', ');
                             cell6.innerHTML = '<button type="button" class="btn btn-success"><i class="fas fa-edit"></i></button>' +
                                 `<button type="button" onClick="deleteSchedule(${index})" class="btn btn-danger"><i class="far fa-trash-alt"></i></button>`
 
