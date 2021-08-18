@@ -13,7 +13,7 @@ bool startWifi()
   //Timeout to wifi setup, this avoid to application break
   wifiManager.setConfigPortalTimeout(180);
 
-  if (wifiManager.autoConnect("ESP-Timer", "12345678"))
+  if (wifiManager.autoConnect(WIFI_AP_NAME, WIFI_AP_PASSWORD))
   {
     DEBUG_WARNING("connected...yeey :)");
   }

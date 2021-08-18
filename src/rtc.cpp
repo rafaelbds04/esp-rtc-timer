@@ -8,7 +8,7 @@ RTC_DS1307 rtc;
 
 void startRtc()
 {
-    Wire.begin(D2, D3);
+    Wire.begin(RTC_SDA_PIN, RTC_SCL_PIN);
     if (!rtc.begin())
     {                                        
         DEBUG_WARNING("RTC NOT INITIALIZED");

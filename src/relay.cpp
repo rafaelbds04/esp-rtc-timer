@@ -3,11 +3,11 @@
 
 #include <time.h>
 #include "rtc.h"
+#include "relay.h"
 #include "debug.h"
 #include <ArduinoJson.h>
 #include "local_storage.h"
 
-const int RELAY_PIN = D7;
 bool isRelayEnable = false;
 
 time_t getTimeUnixFromString(std::string timestr)
@@ -67,12 +67,5 @@ void handleRelaySchedule()
     }
   }
 
-  if (isRelayEnable)
-  {
-    handleTurnRelayOn();
-  }
-  else
-  {
-    handleTurnRelayOff();
-  }
+  isRelayEnable ? handleTurnRelayOn() :  handleTurnRelayOff();
 }
