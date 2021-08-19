@@ -24,7 +24,7 @@
 
 # ⚡️ Key Features
 * Uses Real Time Clock Module (RTC) instead of internal NTP *But in the future new update, they can work together
-  - The application doesn't broke if you don't have internet connection
+  - The application doesn't broke if you don't have internet connection. Using just a internal NTP you need internet connection to init the application.
 * Can schedule different days of the week and multiple times
 * Can use a name for each schedule
 * Friendly setup and web interface
