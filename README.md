@@ -5,8 +5,6 @@
   Digital timer build with ESP8266 Microcontroller and friendly web interface.
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rafaelbds04/esp-rtc-timer.svg">
-  
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rafaelbds04/esp-rtc-timer.svg">
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelbds04/esp-rtc-timer.svg">
@@ -35,6 +33,7 @@
 # 🚀 Getting started
 
 You'll need: 
+  * ESP8266 Microcontroller
   * Board driver CP210x (NodeMCU V2 and ESP32) or CH340G (NodeMCU V3)
   * [PlatformIO Core](http://docs.platformio.org/page/core.html) (Command line tool) or [PlatformIO IDE for VSCode](https://platformio.org/install/ide?install=vscode) 
     - [Advanced usage](https://docs.platformio.org/en/latest/platforms/espressif8266.html?utm_source=arduino-esp8266) - custom settings, uploading to SPIFFS, Over-the-Air (OTA), staging version
@@ -79,7 +78,7 @@ $ platformio run --target upload
 2. Send to origin branch: `git push origin esp-rtc-timer / <name_of_your_branch>`.
 3. Submit Pull Request!
 
-And not less important add a [GitHub Star](https://github.com/rafaelbds04/esp-rtc-timer) to the project. :D
+And not less important add a [GitHub Star](https://github.com/rafaelbds04/esp-rtc-timer) to this project! :D
 
 # License
 MIT
