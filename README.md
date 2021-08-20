@@ -78,7 +78,7 @@ $ platformio run --target upload
 2. Send to origin branch: `git push origin esp-rtc-timer / <name_of_your_branch>`.
 3. Submit Pull Request!
 
-And not less important add a [GitHub Star](https://github.com/rafaelbds04/esp-rtc-timer) to this project! :D
+And not less importantly add a [GitHub Star](https://github.com/rafaelbds04/esp-rtc-timer) to this project! :D
 
 # License
-MIT
+[MIT](https://github.com/rafaelbds04/esp-rtc-timer/blob/master/LICENSE.md)
