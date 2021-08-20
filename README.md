@@ -40,7 +40,7 @@ You'll need:
     
 ```bash
 # Clone this repository
-$ git clone https://github.com/rafaelbds04/esp-rtc-timer
+$ git clone https://github.com/rafaelbds04/esp-rtc-timer.git
 
 # Go into the repository
 $ cd esp-rtc-timer
@@ -74,7 +74,7 @@ $ platformio run --target upload
 # ⭐️ Contributing
 
 
-1. Clone repo and create a new branch: `git checkout https://github.com/rafaelbds04/esp-rtc-timer -b <name_for_new_branch>`.
+1. Clone repo and create a new branch: `git checkout https://github.com/rafaelbds04/esp-rtc-timer.git -b <name_for_new_branch>`.
 2. Send to origin branch: `git push origin esp-rtc-timer / <name_of_your_branch>`.
 3. Submit Pull Request!
 
