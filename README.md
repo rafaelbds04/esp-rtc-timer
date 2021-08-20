@@ -9,11 +9,11 @@
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelbds04/esp-rtc-timer.svg">
 
-  <a href="https://github.com/rafaelbds04/gobarber/commits/master">
+  <a href="https://github.com/rafaelbds04/esp-rtc-timer/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelbds04/esp-rtc-timer.svg">
   </a>
   
-  <a href="https://github.com/rafaelbds04/gobarber/issues">
+  <a href="https://github.com/rafaelbds04/esp-rtc-timer/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/rafaelbds04/esp-rtc-timer.svg">
   </a>
   
